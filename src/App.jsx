@@ -19,7 +19,7 @@ function App() {
         </div>
 
         <div className="banner">
-          <h2></h2>
+          <h2 className=""></h2>
         </div>
 
         </div>
