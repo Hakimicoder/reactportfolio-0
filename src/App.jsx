@@ -19,7 +19,13 @@ function App() {
         </div>
 
         <div className="banner">
-          <h2 className=""></h2>
+          <div className="container">
+            <span>- Jumael Kamga -</span>
+            <h2 className="title">Developpeur Front-End & <br /> UI/UX Designer</h2>
+            <div className="btn">
+              <a href="tel:237679454785">Voir mon CV</a>
+            </div>
+          </div>
         </div>
 
         </div>

@@ -12,6 +12,15 @@
   --aqua : aqua;
   --dark : #222;
   --white : #fff;
+  --sm-white : #f8f7f7f9;
+}
+
+.btn a {
+  display: inline-block;
+  background: var(--white);
+  color: var(--dark);
+  padding: .8rem 1.5rem;
+  border-radius: 5rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -48,6 +57,60 @@ a {
 }
 
 .navbar a:hover {
-  color: aqua;
+  color: var(--aqua);
   transition: all .3s ease-in-out;
+}
+
+.navbar .btn {
+  display: inline-block;
+  background: var(--white);
+  color: var(--dark);
+  padding: .8rem 1.5rem;
+  border-radius: 5rem;
+}
+
+.banner {
+  padding: 1rem;
+  background: var(--dark);
+  color: var(--white);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.banner span {
+  font-weight: bold;
+  color: var(--sm-white);
+  margin-bottom: .7rem;
+  font-size: 1.2rem;
+  color: var(--aqua);
+}
+
+.banner .title {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.banner .btn {
+  margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+  .navbar a {
+    display: none;
+  }
+
+  .navbar .btn {
+    display: inline-block;
+  }
 }
